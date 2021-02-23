@@ -316,6 +316,73 @@
         margin-top: 90px;
     }
 
+    .getconn-fscreen h1,
+    .conntech h3 {
+        font-size: 44px;
+        line-height: normal;
+        margin-bottom: 40px;
+    }
+
+    .getconn-fscreen {
+        padding-top: 170px;
+    }
+
+    .getconn_mainpic {
+        width: 500px;
+        right: 60px;
+    }
+
+    .getconn-fscreen .textblock {
+        margin-bottom: 65px;
+    }
+
+    .getconn-fscreen .blueblock {
+        height: 200px;
+    }
+
+    .connected-blocks {
+        padding-top: 30px;
+    }
+
+    .connected-blocks .mainscreen__bottsect .bullet .picwrap {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 25px;
+    }
+
+    .effcon__top {
+        padding: 100px 0;
+    }
+
+    .effcon__top .descr p {
+        margin-bottom: 20px;
+    }
+
+    .conntech__list .title {
+        margin-bottom: 15px;
+    }
+
+    .conntech {
+        padding: 100px 0 10px;
+    }
+
+    .effortless.effortless_conntech .effortless__wrap {
+        height: 380px;
+    }
+
+    .effortless.effortless_conntech .effortless__wrap .leftsect {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+
+
+
+
+
+
 
 
 
@@ -368,7 +435,8 @@
     .mainscreen__textwrap h1,
     .easily-connect h2,
     .employees h3,
-    .teamslider h3 {
+    .teamslider h3,
+    .effcon__top h2 {
         margin-bottom: 40px;
     }
 
@@ -699,6 +767,72 @@
         padding: 50px 0;
     }
 
+    .getconn-fscreen .textblock {
+        position: relative;
+        z-index: 1;
+    }
+
+    .getconn-fscreen {
+        padding-top: 150px;
+        padding-bottom: 20px;
+    }
+
+    .getconn_mainpic {
+        bottom: -20px;
+    }
+
+    .getconn_mainpic {
+        width: 400px;
+    }
+
+    .getconn-fscreen .blueblock {
+        height: 150px;
+    }
+
+    .connected-blocks .mainscreen__bottsect .bullet .picwrap {
+        width: 90px;
+        height: 90px;
+    }
+
+    .effcon__top {
+        padding: 70px 0;
+    }
+
+    .effcon__top {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .step-row {
+        margin-bottom: 60px;
+    }
+
+    .conntech {
+        padding: 75px 0 10px;
+    }
+
+    .conntech__list {
+        max-width: 32%;
+    }
+
+    .effortless.effortless_conntech .effortless__wrap {
+        height: auto;
+    }
+
+    .effortless__wrap .rightsect {
+        padding: 0;
+    }
+
+    .effortless.effortless_conntech {
+        padding-top: 50px;
+    }
+
+
+
+
+
+
+
 
 
 
@@ -709,7 +843,9 @@
 
 
     .dedicated-team h3,
-    .teamslider h3 {
+    .teamslider h3,
+    .getconn-fscreen h1,
+    .conntech h3 {
         font-size: 36px;
     }
 
@@ -1065,6 +1201,39 @@
         margin-top: -16px;
     }
 
+    .getconn_mainpic {
+        display: none;
+    }
+
+    .getconn-fscreen {
+        overflow: hidden;
+    }
+
+    .getconn_mainpicphone {
+        display: block;
+        width: 500px;
+        position: absolute;
+        right: -60px;
+        bottom: -20px;
+    }
+
+    .connected-blocks {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .effcon__top {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+
+
+
+
+
+
 
 
 
@@ -1223,6 +1392,39 @@
         margin: 0 auto;
     }
 
+    .effcon__top {
+        padding: 50px 15px;
+    }
+
+    .steps-section .row:nth-child(even) .col-xl-4:first-child {
+        order: 1;
+    }
+
+    .steps-section .descr ul {
+        text-align: left;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .conntech__lists {
+        display: block;
+    }
+
+    .conntech__list {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .conntech__list .title {
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+
+    .conntech__list:last-child {
+        margin-bottom: 0;
+    }
+
+
 
 
 
@@ -1234,7 +1436,8 @@
     .effortless h3,
     .techmakes h2,
     .dedicated-team h3,
-    .technology h3 {
+    .technology h3,
+    .effcon__top h2 {
         margin-bottom: 30px;
     }
 
@@ -1402,16 +1605,41 @@
         font-size: 28px;
     }
 
+    .getconn-fscreen {
+        padding-top: 100px;
+    }
+
+    .getconn-fscreen h1 {
+        font-size: 28px;
+    }
+
+    .getconn-fscreen .blueblock {
+        height: 100px;
+    }
+
+    .getconn-fscreen h1 span {
+        display: inline;
+    }
+
+    .getconn-fscreen .textblock {
+        margin-bottom: 40px;
+    }
+
+    .getconn_mainpicphone {
+        max-width: initial;
+    }
 
 
 
-    
 
 
 
+    .conntech h3 {
+        font-size: 28px;
+    }
 
-
-    .teamslider {
+    .teamslider,
+    .conntech {
         padding-top: 50px;
     }
 
@@ -1431,7 +1659,8 @@
     }
 
     .easily-connect .linebefore,
-    .technology .linebefore {
+    .technology .linebefore,
+    .conntech h3 {
         margin-bottom: 30px;
     }
 
@@ -1439,6 +1668,12 @@
         padding: 30px;
     }
 
+}
+
+@media(max-width:400.8px) {
+    .getconn_mainpicphone {
+        width: 400px;
+    }
 }
 
 @media(max-width:360.8px) {

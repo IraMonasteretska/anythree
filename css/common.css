@@ -1584,9 +1584,13 @@ nav .header_demobtn,
     font-weight: 600;
 }
 
+.effortless.effortless_conntech .effortless__wrap {
+    height: 520px;
+}
 
-
-
+.getconn_mainpicphone {
+    display: none;
+}
 
 
 
