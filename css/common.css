@@ -1593,6 +1593,152 @@ nav .header_demobtn,
 }
 
 
+/* Animation */
+@-webkit-keyframes animateBubble {
+    0% {
+        transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+        -o-transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+    }
+}
+
+@keyframes animateBubble {
+    0% {
+        transform: translateY(1000px);
+        -webkit-transform: translateY(1000px);
+        -moz-transform: translateY(1000px);
+        -ms-transform: translateY(1000px);
+        -o-transform: translateY(1000px);
+    }
+
+    100% {
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+    }
+}
+
+@-webkit-keyframes sideWays {
+    0% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 50px;
+    }
+}
+
+@keyframes sideWays {
+    0% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 50px;
+    }
+}
+
+.mainscreen__picwrap {
+    position: relative;
+}
+
+.bublewrapp {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.bubble {
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+    background: #AAD6FF;
+    opacity: 0.8;
+    top: 0;
+}
+
+
+.w5 {
+    width: 4px;
+    height: 4px;
+}
+
+.w10 {
+    width: 7px;
+    height: 7px;
+}
+
+.w15 {
+    width: 10px;
+    height: 10px;
+}
+
+.bubble {
+    animation: animateBubble linear infinite, sideWays ease-in-out infinite alternate;
+    -webkit-animation: animateBubble linear infinite, sideWays ease-in-out infinite alternate;
+    top: -100px;
+}
+
+.mainscreen__picwrap .bubble.w5,
+.bublewrapp .bubble.w5 {
+    animation-duration: 7s, 2s;
+}
+
+.mainscreen__picwrap .bubble.w10,
+.bublewrapp .bubble.w10 {
+    animation-duration: 15s, 2s;
+}
+
+.mainscreen__picwrap .bubble.w15,
+.bublewrapp .bubble.w15 {
+    animation-duration: 10s, 2s;
+}
+
+
+/* 2 sect */
+.mainscreen__bottsect .bubble.w5 {
+    animation-duration: 6s, 2s;
+}
+
+.mainscreen__bottsect .bubble.w10 {
+    animation-duration: 9s, 2s;
+}
+
+.mainscreen__bottsect .bubble.w15 {
+    animation-duration: 12s, 2s;
+}
+
+/* demo block */
+.stay-connected .bubble.w5 {
+    animation-duration: 6s, 2s;
+}
+
+.stay-connected .bubble.w10 {
+    animation-duration: 9s, 2s;
+}
+
+.stay-connected .bubble.w15 {
+    animation-duration: 12s, 2s;
+}
 
 
 
@@ -1613,6 +1759,20 @@ nav .header_demobtn,
 
 
 
+
+
+
+.bublebox,
+.effortless__wrap .rightsect,
+.relwrap,
+.stay-connected__wrap {
+    position: relative;
+}
+
+.stay-connected__wrap .btnsect {
+    position: relative;
+    z-index: 2;
+}
 
 /* 
 font-family: 'Bai Jamjuree', sans-serif;
