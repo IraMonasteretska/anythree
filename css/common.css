@@ -12,7 +12,7 @@
     background: rgba(0, 164, 239, 0.4);
     border-radius: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2;
+    z-index: 29;
     pointer-events: none;
     transition-duration: 300ms;
     transition-timing-function: ease-out;
@@ -1740,7 +1740,9 @@ nav .header_demobtn,
     animation-duration: 12s, 2s;
 }
 
-
+.democontent .bublewrapp .bubble {
+    top: 100px;
+}
 
 
 
@@ -1765,11 +1767,14 @@ nav .header_demobtn,
 .bublebox,
 .effortless__wrap .rightsect,
 .relwrap,
-.stay-connected__wrap {
+.stay-connected__wrap,
+.pricing-topsect,
+.blueblock {
     position: relative;
 }
 
-.stay-connected__wrap .btnsect {
+.stay-connected__wrap .btnsect,
+.democontent .container-fluid {
     position: relative;
     z-index: 2;
 }

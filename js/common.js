@@ -1,17 +1,17 @@
-// var mouse = { x: 0, y: 0 };
-// window.addEventListener('mousemove', function (e) {
-//     mouse.x = e.x;
-//     mouse.y = e.y;
-//     $(".mouse-pointer-small").css({ "left": mouse.x, "top": mouse.y });
-// });
+var mouse = { x: 0, y: 0 };
+window.addEventListener('mousemove', function (e) {
+    mouse.x = e.x;
+    mouse.y = e.y;
+    $(".mouse-pointer-small").css({ "left": mouse.x, "top": mouse.y });
+});
 
-// $(document).ready(function () {
-//     $("a").hover(function () {
-//         $(".mouse-pointer-small").addClass("link-hover");
-//     }, function () {
-//         $(".mouse-pointer-small").removeClass("link-hover");
-//     });
-// })
+$(document).ready(function () {
+    $("a, input, textarea, button").hover(function () {
+        $(".mouse-pointer-small").addClass("link-hover");
+    }, function () {
+        $(".mouse-pointer-small").removeClass("link-hover");
+    });
+})
 
 
 
