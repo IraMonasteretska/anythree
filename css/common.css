@@ -1844,9 +1844,7 @@ nav .header_demobtn,
     border-top-right-radius: 0;
 
 }
-.blog-search__select .nice-select .current {
-    padding-left: 20px;
-} 
+
 
 .blog-search__select .nice-select::after{
     border-width: 6px 8px 0 8px;
@@ -1863,8 +1861,11 @@ nav .header_demobtn,
 
 .blog-search__select .nice-select .current{
     font-size: 21px;
-    line-height: 18px;
     font-weight: 600;
+    padding-left: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .blog-search__select .nice-select.open .list {
     min-width: 100%;
