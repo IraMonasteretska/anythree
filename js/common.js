@@ -80,4 +80,5 @@ $(document).ready(function () {
             }]
         });
     }
+    $('#blog_search_select').niceSelect();
 });
