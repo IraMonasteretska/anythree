@@ -1806,6 +1806,10 @@
         border-bottom-right-radius: 10px;
         border-top-right-radius: 10px;
     }
+
+    .blog-search__select .nice-select .option {
+        line-height: 40px;
+    }
     
     .blog-search__form {
         width: 100%;

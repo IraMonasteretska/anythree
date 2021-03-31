@@ -722,15 +722,18 @@ img {
 }
 
 .formwrapper form input::placeholder,
-.formwrapper form textarea::placeholder {
+.formwrapper form textarea::placeholder,
+.blog-search__input::placeholder {
     color: rgba(21, 35, 81, 0.5);
 }
 
 .formwrapper form input:focus::placeholder,
-.formwrapper form textarea:focus::placeholder {
+.formwrapper form textarea:focus::placeholder,
+.blog-search__input:focus::placeholder,
+.sidebar-form form input:focus::placeholder{
     opacity: 0;
 }
-
+.sidebar-form__title input {}
 .formwrapper form .darkblue-btn {
     margin-top: 18px;
 }
@@ -1870,6 +1873,21 @@ nav .header_demobtn,
 .blog-search__select .nice-select.open .list {
     min-width: 100%;
 }
+
+.blog-search__select .nice-select .option {
+    line-height: 50px;
+}
+
+.blog-search__select .nice-select .option:hover,
+.blog-search__select .nice-select .option.focus, 
+.blog-search__select .nice-select .option.selected.focus {
+    background-color: #f0f7fe;
+}
+
+.blog-search__select .nice-select.open .list .option.selected{
+    color: #2E8ACB;
+}
+
 .blog-search__input {
     outline: none;
     border: none;
