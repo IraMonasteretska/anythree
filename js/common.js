@@ -85,29 +85,6 @@ $(document).ready(function () {
     
     function openMoreText(){
       
-        // $('.blog-item__more .expand').on('click',function(e){
-        //     e.preventDefault();
-        //     var blogItem = $(this).closest('.blog-item');
-        //     var hb = blogItem.prop('scrollHeight') ;
-        //     blogItem.animate({'maxHeight':hb},function () {
-        //         $(this).addClass('blog-item--open')
-        //     });
-        //     blogItem.find('.blog-item__more .expand').toggle()
-        //     blogItem.find('.blog-item__more .collapse').toggle()
-        // });
-
-        // $('.blog-item__more .collapse').on('click',function(e){
-        //     e.preventDefault();
-        //     var blogItem = $(this).closest('.blog-item');
-        //     var hb = 1020;
-        //     blogItem.animate({'maxHeight':hb},function () {
-        //         $(this).removeClass('blog-item--open')
-               
-        //     });
-        //     blogItem.find('.blog-item__more .expand').toggle()
-        //     blogItem.find('.blog-item__more .collapse').toggle()
-        // });
-
 
         // comments
         
@@ -115,11 +92,6 @@ $(document).ready(function () {
             e.preventDefault();
             var commentList = $(this).closest('.comment-list');
             var hc = commentList.prop('scrollHeight') ;
-            // var blogItem = $(this).closest('.blog-item');
-            // var hb = blogItem.prop('scrollHeight') + hc ;
-            // blogItem.animate({
-            //     'maxHeight':hb
-            // });
             
             commentList.animate({'maxHeight':hc},function () {
                 $(this).addClass('comment-list--open')
@@ -140,4 +112,8 @@ $(document).ready(function () {
         });
     }
     openMoreText()
+
+    $('.show-tags-list').on('click', function(){
+        $('.blog-search__tags-list').slideToggle()
+    })
 });

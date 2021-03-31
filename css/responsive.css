@@ -615,9 +615,7 @@
     .comment-item__reply {
         padding: 0px 25px 35px 25px;
     }
-    .comment-item__more {
-        /* margin-bottom: 80px; */
-    }
+   
 
     .write-comment-btn {
         margin-bottom: 80px;
@@ -646,9 +644,7 @@
         font-size: 18px;
     }
 
-    .comment-item__more {
-        /* margin-bottom: 60px; */
-    }
+    
     .comment-item__more a {
         font-size: 18px;
     }
@@ -658,9 +654,7 @@
     .sidebar-tags {
         padding: 30px 20px;
     }
-    /* .blog-search__select .nice-select {
-        height: 60px;
-    } */
+   
     .blog-search__select .nice-select .current {
         font-size: 16px;
         padding-left: 10px;
@@ -797,6 +791,11 @@
 }
 
 @media(max-width:1199.8px) {
+    .breadcrumbsect {
+        top: 20px;
+        font-size: 16px;
+    }
+
     .post-comments__title {
         font-size: 22px;
         margin-bottom: 20px;
@@ -1220,7 +1219,9 @@
 }
 
 @media(max-width:991.8px) {
-
+    .breadcrumbsect {
+        margin-left: 0;
+    }
 
     .comment-item__header {
         padding: 10px 15px;
@@ -1244,9 +1245,6 @@
         font-size: 16px;
     }
   
-    .comment-item__more {
-        /* margin-bottom: 50px; */
-    }
 
     .comment-item__more a {
         font-size: 16px;
@@ -1788,6 +1786,12 @@
 }
 
 @media(max-width:767.8px) {
+    .blog-search__tags {
+        display: block;
+    }
+    .sidebar-tags {
+        display: none;
+    }
     .post-share {
         padding: 30px 0 40px 0;
     }
@@ -2111,6 +2115,14 @@
 }
 
 @media(max-width:575.8px) {
+    .breadcrumbsect {
+        top: 5px;
+        font-size: 13px;
+    }
+
+    .sidebar-form__bottom img {
+        display: none;
+    }
 
 
     .comment-item__author {
@@ -2165,6 +2177,17 @@
     .blog-heading__img {
         bottom: -30px;
     }
+
+
+
+
+
+
+
+
+
+
+
     h1,
     .titleh1,
     h2,
@@ -2383,6 +2406,21 @@
 @media(max-width:400.8px) {
     .getconn_mainpicphone {
         width: 400px;
+    }
+    .blog-item__title h2 {
+        font-size: 20px;
+    }
+    .blog-content h3 {
+        font-size: 18px;
+    }
+    .blog-heading__title {
+        font-size: 24px;
+    }
+    .blog-heading__img {
+        right: 0;
+    }
+    .blog-heading__img img {
+        min-width: 155px;
     }
 }
 
