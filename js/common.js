@@ -81,4 +81,63 @@ $(document).ready(function () {
         });
     }
     $('#blog_search_select').niceSelect();
+
+    
+    function openMoreText(){
+      
+        // $('.blog-item__more .expand').on('click',function(e){
+        //     e.preventDefault();
+        //     var blogItem = $(this).closest('.blog-item');
+        //     var hb = blogItem.prop('scrollHeight') ;
+        //     blogItem.animate({'maxHeight':hb},function () {
+        //         $(this).addClass('blog-item--open')
+        //     });
+        //     blogItem.find('.blog-item__more .expand').toggle()
+        //     blogItem.find('.blog-item__more .collapse').toggle()
+        // });
+
+        // $('.blog-item__more .collapse').on('click',function(e){
+        //     e.preventDefault();
+        //     var blogItem = $(this).closest('.blog-item');
+        //     var hb = 1020;
+        //     blogItem.animate({'maxHeight':hb},function () {
+        //         $(this).removeClass('blog-item--open')
+               
+        //     });
+        //     blogItem.find('.blog-item__more .expand').toggle()
+        //     blogItem.find('.blog-item__more .collapse').toggle()
+        // });
+
+
+        // comments
+        
+        $('.comment-item__more .expand').on('click',function(e){
+            e.preventDefault();
+            var commentList = $(this).closest('.comment-list');
+            var hc = commentList.prop('scrollHeight') ;
+            // var blogItem = $(this).closest('.blog-item');
+            // var hb = blogItem.prop('scrollHeight') + hc ;
+            // blogItem.animate({
+            //     'maxHeight':hb
+            // });
+            
+            commentList.animate({'maxHeight':hc},function () {
+                $(this).addClass('comment-list--open')
+            });
+            commentList.find('.expand').toggle()
+            commentList.find('.collapse').toggle()
+        });
+
+        $('.comment-item__more .collapse').on('click',function(e){
+            e.preventDefault();
+            var commentList = $(this).closest('.comment-list');
+            var hc = 880;
+            commentList.animate({'maxHeight':hc},function () {
+                $(this).removeClass('comment-list--open')
+            });
+            commentList.find('.expand').toggle()
+            commentList.find('.collapse').toggle()
+        });
+    }
+    openMoreText()
 });
