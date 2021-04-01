@@ -2168,14 +2168,15 @@
 
     .blog-heading{
         margin-top: 60px;
-        padding: 30px 0;
+        padding: 40px 0;
+        overflow: hidden;
     }
 
     .blog-heading__title {
         font-size: 28px;
     }
     .blog-heading__img {
-        bottom: -30px;
+        bottom: -50px;
     }
 
 
